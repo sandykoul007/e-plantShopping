@@ -34,7 +34,7 @@ body {
 
 .navbar .ul div a {
     color: white;
-    font-size: 30px;
+    font-size: 50px;
     text-decoration: none;
    
 }
@@ -57,6 +57,11 @@ body {
     width: 100%;
     align-items: center;
     justify-content: center;
+}
+
+.category {
+    text-align: center;
+    margin: 10px;
 }
 
 /* Product Card */
@@ -213,10 +218,12 @@ body {
   
   .product-button:hover {
     background-color: #45a049;
+    
   }
   
   .product-button.added-to-cart {
     background-color: grey; /* Grey when product is added */
+    
   }
   @media (max-width: 1200px) {
     .product-card {
